@@ -1,0 +1,49 @@
+body{
+  /* background-color: black; */
+  text-align: center;
+}
+
+h1{
+  color:purple;
+  margin-bottom: 50px;
+}
+
+
+.red{
+  background-color: red;
+}
+
+.red-click{
+   background-image: linear-gradient(to right, pink , pink);
+}
+
+.green{
+  background-color: green;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.btn{
+  border-radius: 50px 50px 50px 50px;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  cursor: pointer;
+
+  /* position:absolute; */
+}
+
+.btn:hover{
+  border: 1px solid purple;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
